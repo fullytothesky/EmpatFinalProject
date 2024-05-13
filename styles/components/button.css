@@ -1,0 +1,27 @@
+.button {
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  height: -webkit-fit-content;
+  height: -moz-fit-content;
+  height: fit-content;
+  padding: 12px 36px;
+  border-radius: 30px;
+  font-family: "Raleway", sans-serif;
+  font-size: 28px;
+  font-weight: 700;
+  background-color: #f00;
+  color: #ffffff;
+  border-style: none;
+  cursor: pointer;
+}
+@media (max-width: 1024px) {
+  .button {
+    font-size: 24px;
+  }
+}
+@media (max-width: 768px) {
+  .button {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,47 @@
+{
+  // See https://go.microsoft.com/fwlink/?LinkId=733558
+  // for the documentation about the tasks.json format
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "compile SCSS to CSS Landing",
+      "type": "shell",
+      "command": "sass landing.scss landing.css",
+      "group": "build"
+    },
+    {
+      "label": "compile SCSS to CSS FAQ",
+      "type": "shell",
+      "command": "sass faq.scss faq.css",
+      "group": "build"
+    },
+
+    {
+      "label": "compile SCSS to CSS premium",
+      "type": "shell",
+      "command": "sass premium.scss to premium.css",
+      "group": "build"
+    },
+
+    {
+      "label": "compile SCSS to CSS button component",
+      "type": "shell",
+      "command": "sass button.scss to button.css",
+      "group": "build"
+    },
+
+    {
+      "label": "compile SCSS to CSS header component",
+      "type": "shell",
+      "command": "sass header.scss to header.css",
+      "group": "build"
+    },
+
+    {
+      "label": "compile SCSS to CSS footer component",
+      "type": "shell",
+      "command": "sass footer.scss to footer.css",
+      "group": "build"
+    }
+  ]
+}

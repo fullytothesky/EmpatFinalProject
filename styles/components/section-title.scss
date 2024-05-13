@@ -1,0 +1,38 @@
+.section-title {
+  color: white;
+  font-size: 64px;
+  visibility: hidden;
+  opacity: 0;
+  text-align: center;
+  margin: 0;
+
+  @media (max-width: 1024px) {
+    font-size: 48px;
+  }
+  @media (max-width: 768px) {
+    font-size: 32px;
+  }
+}
+
+.animated {
+  animation: slide 1s ease forwards;
+}
+
+.section-title_left-reversed {
+  transform: translateX(-10%);
+}
+.section-title_right-reversed {
+  transform: translateX(+10%);
+}
+
+@keyframes slide {
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    transform: translateX(0%);
+    visibility: visible;
+    opacity: 1;
+  }
+}

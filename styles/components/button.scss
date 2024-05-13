@@ -1,0 +1,23 @@
+$button-color: #f00;
+$text-color: #ffffff;
+
+.button {
+    width: fit-content;
+    height: fit-content;
+    padding: 12px 36px;
+    border-radius: 30px;
+    font-family: "Raleway", sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    background-color: $button-color;
+    color: $text-color;
+    border-style: none;
+    cursor: pointer;
+  
+    @media (max-width: 1024px) {
+      font-size: 24px;
+    }
+    @media (max-width: 768px) {
+      font-size: 16px;
+    }
+  }
